@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { motion } from 'framer-motion'
 import Hero from './components/Hero'
+import Collection from './components/Collection'
 
 // primary
 //  <h1 className='bg-[#654025] w-full h-36 text-[#d1b695] text-5xl '> Anand fashions</h1> 
@@ -22,6 +23,7 @@ function App() {
   return (
     <>
       <Hero />
+      <Collection />
     </>
   )
 }
