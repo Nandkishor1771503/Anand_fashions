@@ -5,6 +5,9 @@ import './App.css'
 import { motion } from 'framer-motion'
 import Hero from './components/Hero'
 import Collection from './components/Collection'
+import About from './components/About'
+import Qualities from './components/Qualities'
+import Footer from './components/Footer'
 
 // primary
 //  <h1 className='bg-[#654025] w-full h-36 text-[#d1b695] text-5xl '> Anand fashions</h1> 
@@ -24,6 +27,9 @@ function App() {
     <>
       <Hero />
       <Collection />
+      <About/>
+      <Qualities />
+      <Footer />
     </>
   )
 }

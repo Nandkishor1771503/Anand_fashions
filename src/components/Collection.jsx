@@ -2,6 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { childrenVariant, parentVariant } from "../components/Hero.jsx";
 function Collection() {
+
+  const cardsStyle ="flex flex-col w-[70%]  md:w-[85%]  lg:w-[95%] h-full items-center justify-center gap-4 bg-[#cbad89] shadow-2xl mx-auto p-5 rounded-2xl "
+
   return (
     <>
       <div className="bg-[#ceb18d] pt-6 md:pt-10 pb-[45%] md:pb-[15%] lg:pb-[5%]">
@@ -11,12 +14,12 @@ function Collection() {
           variants={parentVariant}
           initial="hidden"
           whileInView="show"
-          viewport={{once:true}}
+          viewport={{ once: true }}
         >
           {/* cards */}
           <motion.div
-            className="flex flex-col w-[70%]  md:w-[85%]  lg:w-[95%] h-full items-center justify-center gap-4 bg-[#cbad89] shadow-2xl mx-auto p-5 rounded-2xl "
-            variants={childrenVariant} 
+            className={cardsStyle}
+            variants={childrenVariant}
           >
             <img
               src="https://i.pinimg.com/736x/a7/68/bd/a768bd1075ca51265203caeb14390947.jpg"
@@ -27,7 +30,7 @@ function Collection() {
           </motion.div>
 
           <motion.div
-            className="flex flex-col w-[70%] md:w-[85%]  lg:w-[95%] h-full items-center justify-center gap-4 bg-[#cbad89] shadow-2xl mx-auto p-5 rounded-2xl "
+            className={cardsStyle}
             variants={childrenVariant}
           >
             <img
@@ -39,7 +42,7 @@ function Collection() {
           </motion.div>
 
           <motion.div
-            className="flex flex-col w-[70%] md:w-[85%] lg:w-[95%] h-full items-center justify-center gap-4 bg-[#cbad89] shadow-2xl mx-auto p-5 rounded-2xl "
+            className={cardsStyle}
             variants={childrenVariant}
           >
             <img
@@ -51,7 +54,7 @@ function Collection() {
           </motion.div>
 
           <motion.div
-            className="flex flex-col w-[70%] md:w-[85%] lg:w-[95%] h-full items-center justify-center gap-4 bg-[#cbad89] shadow-2xl mx-auto p-5 rounded-2xl "
+            className={cardsStyle}
             variants={childrenVariant}
           >
             <img
