@@ -1,9 +1,11 @@
-/* #root {
-  max-width: 1280px;
+ #root {
+  /*max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
-} */
+  text-align: center;*/
+  scroll-behavior: smooth;
+
+} 
  body{
   background-color: #654025;
  }

@@ -28,7 +28,7 @@ export const childrenVariant = {
 function Hero() {
   return (
     <>
-      <div className="bg-[#654025] h-screen hidden lg:block">
+      <div className="bg-[#654025] h-screen hidden lg:block" id="home">
         <Navbar />
 
         <div className="flex justify-between m-7">

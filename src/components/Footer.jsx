@@ -11,10 +11,10 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#654025] text-[#cbad89] py-8 lg:grid grid-cols-2 justify-around mx-auto lg:gap-[10%]">
+    <footer className="bg-[#654025] text-[#cbad89] py-8 lg:grid grid-cols-2 justify-around mx-auto lg:gap-[10%]" id="contact">
       <div className="m-auto lg:ml-[40%]">
-        <h1 className="text-4xl lg:text-6xl ">Anand Fashions</h1>
-        <h3 className="text-2xl lg:text-4xl my-5">
+        <h1 className="text-4xl lg:text-6xl ml-4">Anand Fashions</h1>
+        <h3 className="text-2xl lg:text-4xl my-5 ml-5">
           Your unique style, our artistic touch.
         </h3>
       </div>
