@@ -57,7 +57,7 @@ function Hero() {
       </div>
 
       <div className="bg-[#654025] lg:hidden ">
-        <h1 className="text-[#cbad89] text-4xl mb-4 mx-4 my-4">Anand Fashions</h1>
+        <h1 className="text-[#cbad89] text-4xl  mx-4 mt-4">Anand Fashions</h1>
         <div>
           <div className="flex items-center justify-center gap-5 m-5 mt-16 md:ml-0">
             <motion.img
