@@ -13,12 +13,9 @@ function About() {
         <div>
           <h1 className="text-4xl lg:text-6xl my-4">Anand</h1>
           <p className=" text-lg lg:text-xl mt-10">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
-            obcaecati vitae sunt, aperiam porro adipisci nesciunt, eius quasi
-            enim recusandae et provident labore. Voluptatum et laboriosam, at
-            quod aliquam mollitia distinctio alias accusantium ullam
-            consequuntur saepe praesentium maiores rem deleniti. Corrupti cum
-            voluptatem nulla repudiandae provident culpa consequatur beatae rem.
+           At Anand Fashions, we believe fashion is more than clothing — it’s a reflection of confidence, personality, and lifestyle. We bring together modern trends, timeless styles, and carefully curated collections designed for people who want to stand out effortlessly.
+
+From everyday essentials to statement pieces, our focus is on delivering fashion that feels premium, comfortable, and expressive. Anand Fashions is built for individuals who value style, quality, and confidence in every look.
           </p>
         </div>
       </div>
